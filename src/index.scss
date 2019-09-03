@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Economica|Roboto+Condensed');
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Economica', sans-serif;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+hr {
+  margin-top: 4rem;
+}
+
+img {
+  display: block;
+}
+
+button {
+    border: none;
+    outline: none;
+    text-align: left;
+    margin: 0;
+    cursor: pointer;
+}
+
+.feedWrapper {
+    margin: 20%;
+    margin-top: 10%;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  background-color: white;
+}
+
+.modalText {
+  padding-top: 15rem;
+  padding: 20rem;
+}
+
+.modal-close-button {
+ position: absolute;
+ right: 3rem;
+ top: 3rem;
+}
+
+button.modal-close-button {
+  font-size: 3rem;
+}
